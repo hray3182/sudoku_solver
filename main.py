@@ -81,7 +81,7 @@ def remove_num(board, count):
     while current_count < count:
         row = random.randint(0, 8)
         col = random.randint(0, 8)
-        while board_copy[row][col] == 0:  # 確保選擇一個非零元素
+        while board_copy[row][col] == 0:
             row = random.randint(0, 8)
             col = random.randint(0, 8)
 
@@ -138,7 +138,7 @@ def print_board(board, start_line):
 
 if __name__ == '__main__':
 
-    os.system('cls')  # 清空命令行窗口
+    os.system('cls')  # clear content in cmd line
 
     # define a 9*9 matrix
     board = [[0 for _ in range(9)] for _ in range(9)]

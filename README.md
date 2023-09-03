@@ -20,3 +20,4 @@ Execute `py main.py` in the terminal to run the program.
 4. Finally, the program solves the generated puzzle.
 
 ## Sudoku Solver Demo
+![Sudoku Solver Demo](https://github.com/hray3182/sudoku_solver/blob/master/demo.gif?raw=true)
